@@ -13,6 +13,9 @@ Author URI: http://newrelic.com
 */
 
 function add_newrelic_insights_attributes() {
+  if (!function_exists("newrelic_add_custom_parameter")) {
+    return;
+  }
   if ( is_user_logged_in() ) {
     $current_user = wp_get_current_user();
     newrelic_add_custom_parameter("wp_logged_in", true);
