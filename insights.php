@@ -1,15 +1,15 @@
 <?php
 /**
  * @package New Relic Insights attributes for WordPress
- * @version 0.1
+ * @version 1.0
  */
 /*
 Plugin Name: New Relic Insights attributes for WordPress
-Plugin URI: http://newrelic.com
+Plugin URI: https://github.com/tedpennings/newrelic-wordpress-insights
 Description: This plugin adds Insights attributes for logged in users.
-Author: New Relic
-Version: 0.1
-Author URI: http://newrelic.com
+Author: Ted Pennings
+Version: 1.0
+Author URI: http://github.com/tedpennings
 */
 
 function add_newrelic_insights_attributes() {
